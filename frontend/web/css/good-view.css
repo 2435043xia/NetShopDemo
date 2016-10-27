@@ -1,0 +1,48 @@
+.g-header
+{
+    width: 100%
+}
+.main-img,.buy-main,.comment
+{
+    float: left;
+}
+.buy-main h3
+{
+    margin: 0px;
+    font-size: 16px;
+}
+i,em{
+    font-style: normal;
+}
+.g_price em{
+    font-size: 16px;
+}
+.g_price{
+    padding-left: 40px;
+    margin-top: 10px;
+    width: 100%;
+}
+.g_price strong{
+    font-size: 20px;
+    color: red;
+    font-weight: 400;
+    font-family: Verdana;
+}
+.g_price b{
+    display:block;
+    float: left;
+    margin-top: 5px;
+}
+.buy{
+    margin:40% 0 0 25%;
+}
+.g-content
+{
+    margin-top: 20px;
+}
+.g-content .title{width: 100%;border-bottom: 1px grey solid}
+.g-content .title h1
+{
+    padding: 0px;
+    margin-top: 10px;
+}

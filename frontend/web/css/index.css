@@ -1,0 +1,147 @@
+.test{
+    float: left;
+    position: fixed;
+    width: 100%;
+    height: 400px;
+}
+
+.card-holder a:link,
+.card-holder a:hover,
+.card-holder a:visited,
+.card-holder a:active {
+    color: #fff;
+    text-decoration: none;
+}
+.card-holder .index-content{
+    display: inline;
+    margin-top: -20px;
+    font-size: 15px;
+    width: 15px;
+    float: right;
+    position: relative;
+    right: -40px;
+    text-align: center;
+}
+.card-holder {
+    z-index: 999;
+    float: left;
+    position: fixed;
+    width: 0px;
+    overflow: visible;
+    margin-top: -10px;
+}
+
+.card-wrapper {
+    display: inline-block;
+    float: right;
+    clear: both;
+}
+
+.card {
+    position: relative;
+    left: 50px;
+    padding: 16px 50px 16px 100px;
+    margin: 8px;
+    x-box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 0 8px -8px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.card:hover {
+    position: relative;
+    left: 100%;
+    margin-left: -50px;
+    box-shadow:
+    0 -8px 8px -8px rgba(0, 0, 0, 0.5),
+    0 8px 8px -8px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-content {
+    display: inline;
+    color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.bg-01 { background: #539770; }
+.bg-02 { background: #4B7D74; }
+.bg-03 { background: #8DC2BC; }
+.bg-04 { background: #EDD6B4; }
+.bg-05 { background: #BE7467; }
+.bg-06 { background: #E2AE63; }
+
+.floors{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.floors .floor{
+    list-style-type: none;
+    width: 100%;
+}
+.floors .floor a:link,
+.floors .floor a:hover,
+.floors .floor a:visited,
+.floors .floor a:active {
+    color: #000000;
+    text-decoration: none;
+}
+.floors .floor .collapsed .floor-id
+{
+    background: url("../img/floor.png") no-repeat 0 -35px;
+}
+.floor-id{
+    background: url("../img/floor.png") no-repeat;
+    transition: all 0.3s linear 0s;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    width: 31px;
+    margin:5px 20px 0 0;
+    padding-right: 10px;
+    height: 25px;
+    float: left;
+    font-size: 13px;
+    overflow: hidden;
+    display: block;
+    transition: all 0.3s linear 0s;
+}
+.c_title{
+    width: 100%;
+    display: block;
+    line-height: 40px;
+    border-bottom: 1px #c7bfd3 solid;
+}
+.floor-goods{
+    float: left;
+    padding: 0px;
+}
+.floor-goods .good{
+    float:left;
+    list-style-type: none;
+}
+.good .g_img
+{
+    margin-left: 0px;
+}
+i,em{
+    font-style: normal;
+}
+.g_price em{
+    font-size: 16px;
+}
+.g_price{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.g_price strong{
+    font-size: 20px;
+    color: red;
+    font-weight: 400;
+    font-family: Verdana;
+}

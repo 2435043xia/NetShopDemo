@@ -1,0 +1,6 @@
+.cart li  {list-style-type: none; margin: 0; padding: 0px}
+.cart .c-title {text-align: center}
+.cart .good-name {overflow: hidden; text-align: center; margin-top: 10%}
+.cart .good-count {position: relative;height: 253px}
+.cart .s_count {position:absolute;width: 30px; height: 25px;top:50%;left: 50%;margin:-15px 0 0 -15px;text-align: center}
+.cart .good-action {text-align: center;line-height: 245px}
